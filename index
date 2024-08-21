@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Layout Replica</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="header">
+        <a href="#" class="logo">Block Sploits</a>
+        <div class="nav">
+            <a href="#">Home</a>
+            <a href="#">News</a>
+            <a href="#">Discord</a>
+            <a href="#" class="login">Login</a>
+        </div>
+    </div>
+
+    <div class="container">
+        <!-- Card 1 -->
+        <div class="card">
+            <h2>Electron</h2>
+            <div class="info">
+                <p><strong>Pros:</strong></p>
+                <ul>
+                    <li>Uses sysguard</li>
+                    <li>98% UNC</li>
+                    <li>Level 7</li>
+                </ul>
+                <p><strong>Neutral:</strong></p>
+                <ul>
+                    <li>Monthly subscriptions only</li>
+                    <li>Frequent crashes</li>
+                    <li>Likely short-lived</li>
+                </ul>
+                <div class="price">11.99$ per month</div>
+            </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="card">
+            <h2>DX9WARE</h2>
+            <div class="info">
+                <p><strong>Pros:</strong></p>
+                <ul>
+                    <li>Zero traces of detection found</li>
+                    <li>Custom Lua environment</li>
+                    <li>Has a big script library</li>
+                    <li>Ton of features</li>
+                    <li>External</li>
+                </ul>
+                <p><strong>Neutral:</strong></p>
+                <ul>
+                    <li>Lifetime subscription removed soon</li>
+                    <li>Early Beta - expect bugs</li>
+                </ul>
+                <div class="price">3.25$ per week</div>
+            </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="card">
+            <h2>Celery</h2>
+            <div class="info">
+                <p><strong>Pros:</strong></p>
+                <ul>
+                    <li>Built a decent reputation</li>
+                    <li>In Beta phase</li>
+                    <li>Level 7</li>
+                </ul>
+                <p><strong>Neutral:</strong></p>
+                <ul>
+                    <li>Likely short-lived</li>
+                </ul>
+                <p><strong>Cons:</strong></p>
+                <ul>
+                    <li>Has vulnerabilities</li>
+                </ul>
+                <div class="price">FREE</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
